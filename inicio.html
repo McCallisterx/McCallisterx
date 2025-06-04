@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Suiza</title>
+    <link rel="stylesheet" href="insti.css">
+</head>
+<body>
+    
+    <section class="hero">
+        <div class="slider">
+            <img src="img/img1.jpeg" class="slide active">
+            <img src="img/img2.jpeg" class="slide">
+            <img src="img/img3.jpeg" class="slide">
+            <img src="img/img4.jpeg" class="slide">
+            <img src="img/img5.jpeg" class="slide">
+            <img src="img/img6.jpeg" class="slide">
+           
+        </div>
+        <div class="hero-content">
+            <img src="img/LOGO -DSI-2024.png" class="logo">
+            <h1 class="text_c">Desarrollo de Sistemas de Información</h1>
+            <p>Excelencia académica con visión tecnológica</p>
+            <a href="#" class="btn"><span>Explora nuestra carrera</span></a>
+
+        </div>
+    </section>
+
+
+    
+
+    <main>
+        <section class="bienvenida">
+            <h2>Bienvenido al Instituto Suiza</h2>
+            <p>Nos dedicamos a la formación de profesionales técnicos líderes en desarrollo tecnológico y sistemas de información.</p>
+        </section>
+
+        <section class="carreras" id="carreras">
+            <h2>Nuestra Carrera Técnica</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>💻 Diseños de Aplicaciones Moviles</h3>
+                    <p>Aprende a desarrollar software, administrar bases de datos y liderar proyectos tecnológicos.</p>
+                </div>
+                <div class="card">
+                    <h3>📈 Diseño Web</h3>
+                    <p>Forma parte del mundo empresarial con sólidos conocimientos en gestión y planificación.</p>
+                </div>
+                <div class="card">
+                    <h3>📊 Comportamiento Etico/h3>
+                    <p>Domina el análisis financiero y la gestión contable con herramientas modernas.</p>
+                </div>
+                <div class="card">
+                    <h3>🩺 Experiencias Formativas</h3>
+                    <p>Contribuye a la salud pública con conocimientos actualizados y vocación de servicio.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Instituto Suiza. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slider .slide');
+
+        function showNextSlide() {
+            slides[slideIndex].classList.remove('active');
+            slideIndex = (slideIndex + 1) % slides.length;
+            slides[slideIndex].classList.add('active');
+        }
+
+        setInterval(showNextSlide, 4000); // Cambia cada 4 segundos
+    </script>
+
+</body>
+</html>
