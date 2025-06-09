@@ -1,0 +1,471 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+body{
+    background-color: black;
+    /*color: white; /*como ya colocamos fondo negro, agregar ( color: white ) en body mismo hara que todas las letras  sean blancos y es mas practico*/
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 3em;
+}
+
+.principal1 {
+    width: 50%;
+}
+.principal1 img{
+    width: 40%;
+    margin-left: 150px;
+}
+.principal2 {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal2 .firma img{
+    width: 100px;
+    height: auto;
+}
+
+p{
+    margin-top: 2em;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    color: aquamarine;
+    font-size: 60px;
+}
+
+h3{
+    color: aquamarine;
+}
+.linea{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: aquamarine;
+    top: 37%;
+}
+.firma{
+    width: 60px;
+    margin: 1em;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.sec1, .sec2{
+    color: white;
+}
+ 
+.sec3, .redes img{
+    width: 30px;
+    margin-top: 15px;
+}
+
+.sec3{
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    top: 250px;
+}
+
+
+.banner{
+    background-image: linear-gradient(to left, rgb(4, 18, 19), rgb(8, 10, 10)); /* Degradado de verde oscuro a aqua */
+}
+
+.banner .menu-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.banner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-imagenes {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.menu-imagenes li {
+    transition: transform 0.3s ease;
+}
+
+.menu-imagenes li:hover {
+    transform: scale(1.1);
+}
+
+.menu-imagenes img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/*seccion*/
+
+.seccion-general2{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contenedor2{
+    height: 500px;
+    width: 75%;
+    
+}
+
+.contenedor-texto-logo{
+    margin-top: 0;
+    height: 160px;
+}
+.contenedor-texto-logo .contenedor-texto1 p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins Black';
+    color: white;
+    margin-top: 40px;
+}
+
+
+.contenedor-texto2{
+    display: flex;
+    
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.contenedor-texto2 .text1, .text2{
+    
+    font-family: 'Poppins Black';
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+.contenedor-texto2 .text2{
+    
+    font-family: 'Poppins Black';
+    font-size: 25px;
+}
+.contenedor-texto3{
+    display: flex;
+    
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+}
+.contenedor-texto3 .linea2{
+    width: 50px;
+    height: 4px;
+    background-color: aqua;
+}
+
+.contenedor-texto4{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+
+}
+.contenedor-texto4 .text{
+    display: flex;
+    width: 87%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-texto4 .text p{
+    margin-top: 0;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-logos{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.img-verde1{
+    display: flex;
+    width: 210px;
+    height: 170px;
+    /* ... otros estilos que ya tengas para este div ... */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 60, 224)); /* Degradado de verde oscuro a aqua */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img-verde1 img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.img-verde2{
+    width: 210px;
+    height: 170px;
+    /* ... otros estilos que ya tengas para este div ... */
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.img-verde2 img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.img-verde3{
+    width: 210px;
+    height: 170px;
+    /* ... otros estilos que ya tengas para este div ... */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(1, 83, 72)); /* Degradado de verde oscuro a aqua */  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-verde3 img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.img-verde4{
+    width: 210px;
+    height: 170px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.img-verde4 img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.img-verde1 .text{
+    background-color: transparent;
+}
+
+.textos .text1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.textos .text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/*seccion nueva*/
+
+
+
+
+
+
+
+
+
+.seccion-general3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 24, 24);
+    
+}
+
+.contenedor3{
+    height: 500px;
+    width: 75%;
+    
+}
+
+.contenedor-texto-logo1{
+    margin-top: 0;
+    height: 160px;
+}
+.contenedor-texto-logo1 .contenedor-texto5 p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins Black';
+    color: white;
+    margin-top: 30px;
+}
+
+
+.contenedor-texto6{
+    display: flex;
+    
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.contenedor-texto6 .text3, .text4{
+    
+    font-family: 'Poppins Black';
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+.contenedor-texto6 .text4{
+    
+    font-family: 'Poppins Black';
+    font-size: 25px;
+    color: aquamarine;
+}
+.contenedor-texto7{
+    display: flex;
+    
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+}
+.contenedor-texto7 .linea3{
+    width: 50px;
+    height: 4px;
+    background-color: aqua;
+}
+
+.contenedor-texto8{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+
+}
+.contenedor-texto8 .text-1{
+    display: flex;
+    width: 87%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-texto8 .text-1 p{
+    margin-top: 0;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-logos-1{
+    display: flex;
+    background-color: rgb(187, 245, 225);
+    width: 100%;
+    height: 340px;
+    justify-content: space-around;
+}
+.contenedor-logos-invisible{
+    width: 98%;
+    height: 330px;
+    background-color: beige;
+}
+.cont-1{
+    display: flex;
+    width: 850px;
+    height: 200px;
+    background-color: aqua;
+    justify-content: space-around;
+}
+.cont-1 .image1{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(83, 83, 83);
+}
+.cont-1 .image2{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(83, 83, 83);
+}
+
+.cont-2{
+    display: flex;
+    width: 850px;
+    height: 200px;
+    background-color: rgb(34, 85, 85);
+    justify-content: space-around;
+}
+.cont-2 .image3{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(201, 141, 141);
+}
+.cont-2 .image4{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(83, 83, 83);
+}
+
+
